@@ -1,0 +1,60 @@
+.abc{
+    display: block;
+    /*margin-top: 100px;*/
+    margin: 200px auto;
+    /*width: 500px;*/
+    /*height: 500px;*/
+    animation-name: aaa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes aaa{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(2,2);
+    }
+}
+.ak{
+    width: 300px;
+    height: 300px;
+    background-image:url(./img/—Pngtree—beautiful\ bright\ red\ heart_6252575.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    animation-name: bbb;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bbb{
+    0%{
+
+        transform: scale(1);
+
+    }
+    5%{
+
+        transform: scale(1.2);
+
+    }
+    10%{
+
+        transform: scale(1.1);
+
+    }
+    15%{
+        transform: scale(1.25);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+
+        transform: scale(1);
+
+    }
+}
+ 
